@@ -1,0 +1,31 @@
+Options All -Indexes
+
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files tlgram.php>
+    Order allow,deny
+    Deny from all
+</Files>
+
+
+<Files movie/>
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files warn.php>
+    Order allow,deny
+    Deny from all
+</Files>
+<Files not.php>
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files data.txt>
+    Order allow,deny
+    Deny from all
+</Files>
